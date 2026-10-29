@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 420" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="navyWave" x1="0" y1="0" x2="1800" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#082A50"/>
+      <stop offset="1" stop-color="#064B91"/>
+    </linearGradient>
+    <linearGradient id="blueWave" x1="200" y1="45" x2="1610" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0866D8"/>
+      <stop offset="1" stop-color="#1087DC"/>
+    </linearGradient>
+    <linearGradient id="cyanWave" x1="0" y1="110" x2="1800" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19B6E8"/>
+      <stop offset=".52" stop-color="#53C8E8"/>
+      <stop offset="1" stop-color="#8DDCF0"/>
+    </linearGradient>
+    <linearGradient id="paleWave" x1="80" y1="160" x2="1710" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9F5FF"/>
+      <stop offset="1" stop-color="#B9E8FA"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 181c238-112 426-125 674-53 267 78 451 90 711 6 177-57 302-62 415-36v322H0V181Z" fill="url(#navyWave)"/>
+  <path d="M0 151c243-86 434-82 667-7 256 83 460 92 710 22 188-53 311-54 423-14v268H0V151Z" fill="url(#blueWave)"/>
+  <path d="M0 207c215-80 413-75 645-6 265 79 458 80 694 18 204-54 346-49 461-11v227H0V207Z" fill="url(#cyanWave)"/>
+  <path d="M0 267c224-75 396-69 613-7 261 75 476 77 704 22 218-53 351-46 483-5v195H0V267Z" fill="url(#paleWave)"/>
+</svg>

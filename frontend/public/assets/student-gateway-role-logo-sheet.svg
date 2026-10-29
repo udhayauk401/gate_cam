@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title description">
+  <title id="title">Student Gateway role logo sheet</title>
+  <desc id="description">Four circular VCET Erode Student Gateway badges for Student, Mentor, HOD, and Admin, arranged in a two-by-two grid on white.</desc>
+  <defs>
+    <radialGradient id="badge" cx="48%" cy="37%" r="74%">
+      <stop offset="0" stop-color="#103f76"/>
+      <stop offset=".58" stop-color="#06234b"/>
+      <stop offset="1" stop-color="#03132e"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#e0ffff"/>
+      <stop offset=".3" stop-color="#38e6ff"/>
+      <stop offset=".68" stop-color="#148bff"/>
+      <stop offset="1" stop-color="#b9fbff"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f8ffff"/>
+      <stop offset=".55" stop-color="#bdeeff"/>
+      <stop offset="1" stop-color="#4da7ed"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9f6ff"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#a9ffff"/>
+      <stop offset=".5" stop-color="#25dcff"/>
+      <stop offset="1" stop-color="#078aff"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+      <feOffset dy="4"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".45"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <g id="campus" fill="#087ac3" stroke="#35dfff" stroke-width="2">
+      <path d="M-224 90h96v-47l-47-24-49 24z"/>
+      <path d="M-216 43l41-21 42 21M-194 90V57h17v33m12 0V57h17v33" fill="none"/>
+      <path d="M-122 90h23V51l-12-9-11 9z"/>
+      <path d="M-117 55h13m-13 12h13m-13 12h13" fill="none"/>
+      <path d="M119 90h105V57l-52-28-53 28z"/>
+      <path d="M128 57l44-23 45 23M145 90V65h18v25m19 0V65h18v25" fill="none"/>
+    </g>
+    <g id="cap" filter="url(#glow)">
+      <path d="M-100-203 0-244 101-203 0-162z" fill="#071a3a" stroke="url(#rim)" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M-63-188v24c34 22 92 22 126 0v-24" fill="#0c3470" stroke="#31dfff" stroke-width="4"/>
+      <path d="M99-203v42" stroke="#8affff" stroke-width="4"/>
+      <path d="M92-161h14l-7 20z" fill="#31dfff"/>
+    </g>
+    <g id="shield">
+      <path d="M0-165 112-125v103c0 77-46 126-112 163C-66 104-112 55-112-22v-103z" fill="#031a3b" stroke="#07152e" stroke-width="11" stroke-linejoin="round" filter="url(#soft-shadow)"/>
+      <path d="M0-156 101-120v96c0 67-38 112-101 149C-63 88-101 43-101-24v-96z" fill="url(#shield)" stroke="url(#rim)" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M0-140 83-111v83c0 55-29 91-83 124-54-33-83-69-83-124v-83z" fill="#0b3470" stroke="#137fcb" stroke-width="3"/>
+    </g>
+    <g id="lock">
+      <path d="M-11-104v-10a11 11 0 0 1 22 0v10" fill="none" stroke="#a9ffff" stroke-width="4"/>
+      <rect x="-16" y="-105" width="32" height="25" rx="6" fill="url(#cyan)" stroke="#fff" stroke-width="2"/>
+      <circle cy="-96" r="3" fill="#063064"/>
+      <path d="M0-93v6" stroke="#063064" stroke-width="2.5"/>
+    </g>
+    <g id="check">
+      <circle r="35" fill="#087fe2" stroke="#e8ffff" stroke-width="5"/>
+      <circle r="28" fill="none" stroke="#45eaff" stroke-width="2"/>
+      <path d="m-16 0 11 11 22-24" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="student-card">
+      <rect x="-72" y="-77" width="144" height="99" rx="12" fill="url(#card)" stroke="#52e9ff" stroke-width="4"/>
+      <path d="M-72-53h144" stroke="#57cfff" stroke-width="3"/>
+      <circle cx="-39" cy="-26" r="12" fill="#1682d5"/>
+      <path d="M-59 8c2-17 10-25 20-25s18 8 20 25z" fill="#1682d5"/>
+      <path d="M-3-33h53M-3-17h39M-3-1h28" stroke="#1682d5" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g id="mentor-card">
+      <rect x="-72" y="-77" width="144" height="99" rx="12" fill="url(#card)" stroke="#52e9ff" stroke-width="4"/>
+      <path d="M-72-53h144" stroke="#57cfff" stroke-width="3"/>
+      <circle cx="-34" cy="-29" r="13" fill="#1057a5"/>
+      <path d="M-56 8c2-19 10-28 22-28s20 9 22 28z" fill="#1057a5"/>
+      <path d="M5-31h42M5-15h36M5 1h25" stroke="#1682d5" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g id="hod-card">
+      <rect x="-72" y="-77" width="144" height="99" rx="12" fill="url(#card)" stroke="#52e9ff" stroke-width="4"/>
+      <path d="M-72-53h144" stroke="#57cfff" stroke-width="3"/>
+      <circle cx="-36" cy="-29" r="12" fill="#1057a5"/>
+      <path d="M-57 8c2-18 10-27 21-27s19 9 21 27z" fill="#1057a5"/>
+      <path d="M4-31h40M4-15h30" stroke="#1682d5" stroke-width="6" stroke-linecap="round"/>
+      <path d="M45-4v7m0 23v7m-15-22h-7m45 0h-7m-27-11-5-5m33 33-5-5m0-23 5-5M31 28l5-5" stroke="#087ed1" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="45" cy="12" r="12" fill="none" stroke="#087ed1" stroke-width="5"/>
+      <circle cx="45" cy="12" r="4" fill="#087ed1"/>
+    </g>
+    <g id="admin-card">
+      <rect x="-72" y="-77" width="144" height="99" rx="12" fill="url(#card)" stroke="#52e9ff" stroke-width="4"/>
+      <path d="M-72-53h144" stroke="#57cfff" stroke-width="3"/>
+      <circle cx="-36" cy="-29" r="12" fill="#1057a5"/>
+      <path d="M-57 8c2-18 10-27 21-27s19 9 21 27z" fill="#1057a5"/>
+      <path d="M4-31h40M4-15h30" stroke="#1682d5" stroke-width="6" stroke-linecap="round"/>
+      <path d="M47-7v6m0 26v6m-15-19h-6m44 0h-6m-27-11-4-4m32 30-4-4m0-22 4-4m-28 30 4-4" stroke="#087ed1" stroke-width="4" stroke-linecap="round"/>
+      <path d="M47-12 57-8v10c0 9-4 14-10 18-6-4-10-9-10-18V-8z" fill="#0c82d5" stroke="#fff" stroke-width="2"/>
+      <path d="m42 1 4 4 7-8" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="orbit" fill="none" stroke-linecap="round">
+      <path d="M-183 65C-123 130 60 138 172 64c26-17 27-35 9-41" stroke="#05234c" stroke-width="19"/>
+      <path d="M-183 61C-113 116 54 126 159 60c27-17 31-31 16-38" stroke="url(#cyan)" stroke-width="8" filter="url(#glow)"/>
+      <path d="M-155 75C-62 123 82 109 173 51" stroke="#d7ffff" stroke-width="2" opacity=".9"/>
+    </g>
+    <g id="badge-base">
+      <circle r="258" fill="url(#badge)" stroke="#07172c" stroke-width="8"/>
+      <circle r="251" fill="none" stroke="url(#rim)" stroke-width="5"/>
+      <circle r="243" fill="none" stroke="#2aa9ec" stroke-width="1.5" opacity=".7"/>
+      <path d="M-205-6A205 205 0 0 1 205-6" fill="none" stroke="#299ce8" stroke-width="1.5" opacity=".45"/>
+      <path d="M-220 117Q0 52 220 117" fill="none" stroke="#1b6ba9" stroke-width="2" opacity=".5"/>
+      <g fill="#54eaff">
+        <circle cx="-183" cy="-111" r="2.5"/><circle cx="-165" cy="-91" r="2"/>
+        <circle cx="183" cy="-112" r="2.5"/><circle cx="164" cy="-91" r="2"/>
+        <circle cx="-207" cy="13" r="2"/><circle cx="207" cy="13" r="2"/>
+      </g>
+    </g>
+    <style>
+      .brand { font-family: Arial, Helvetica, sans-serif; font-weight: 800; font-size: 34px; letter-spacing: -.8px; }
+      .role { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 19px; letter-spacing: 6px; }
+      .footer { font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 5px; }
+    </style>
+  </defs>
+  <rect width="1200" height="1200" fill="#fff"/>
+
+  <g transform="translate(300 300)">
+    <use href="#badge-base"/>
+    <use href="#campus" opacity=".82"/>
+    <use href="#cap"/>
+    <use href="#shield"/>
+    <use href="#student-card"/>
+    <use href="#lock"/>
+    <g transform="translate(55 2)"><use href="#check"/></g>
+    <use href="#orbit"/>
+    <path d="M-121 139h45m152 0h45" stroke="#1bdcff" stroke-width="2"/>
+    <text class="brand" x="0" y="151" text-anchor="middle" fill="#fff">Student <tspan fill="#35e4ff">Gateway</tspan></text>
+    <text class="role" x="0" y="187" text-anchor="middle" fill="#b9faff">STUDENT</text>
+    <text class="footer" x="0" y="218" text-anchor="middle" fill="#fff">VCET · ERODE</text>
+  </g>
+
+  <g transform="translate(900 300)">
+    <use href="#badge-base"/>
+    <use href="#campus" opacity=".82"/>
+    <use href="#cap"/>
+    <use href="#shield"/>
+    <use href="#mentor-card"/>
+    <use href="#lock"/>
+    <g transform="translate(55 2)"><use href="#check"/></g>
+    <use href="#orbit"/>
+    <path d="M-121 139h45m152 0h45" stroke="#1bdcff" stroke-width="2"/>
+    <text class="brand" x="0" y="151" text-anchor="middle" fill="#fff">Student <tspan fill="#35e4ff">Gateway</tspan></text>
+    <text class="role" x="0" y="187" text-anchor="middle" fill="#fff">MENTOR</text>
+    <text class="footer" x="0" y="218" text-anchor="middle" fill="#fff">VCET · ERODE</text>
+  </g>
+
+  <g transform="translate(300 900)">
+    <use href="#badge-base"/>
+    <use href="#campus" opacity=".82"/>
+    <use href="#cap"/>
+    <use href="#shield"/>
+    <use href="#hod-card"/>
+    <use href="#lock"/>
+    <g transform="translate(55 2)"><use href="#check"/></g>
+    <use href="#orbit"/>
+    <path d="M-121 139h45m152 0h45" stroke="#1bdcff" stroke-width="2"/>
+    <text class="brand" x="0" y="151" text-anchor="middle" fill="#fff">Student <tspan fill="#35e4ff">Gateway</tspan></text>
+    <text class="role" x="0" y="187" text-anchor="middle" fill="#fff">HOD</text>
+    <text class="footer" x="0" y="218" text-anchor="middle" fill="#fff">VCET · ERODE</text>
+  </g>
+
+  <g transform="translate(900 900)">
+    <use href="#badge-base"/>
+    <use href="#campus" opacity=".82"/>
+    <use href="#cap"/>
+    <use href="#shield"/>
+    <use href="#admin-card"/>
+    <use href="#lock"/>
+    <g transform="translate(55 2)"><use href="#check"/></g>
+    <use href="#orbit"/>
+    <path d="M-121 139h45m152 0h45" stroke="#1bdcff" stroke-width="2"/>
+    <text class="brand" x="0" y="151" text-anchor="middle" fill="#fff">Student <tspan fill="#35e4ff">Gateway</tspan></text>
+    <text class="role" x="0" y="187" text-anchor="middle" fill="#b9faff">ADMIN</text>
+    <text class="footer" x="0" y="218" text-anchor="middle" fill="#fff">VCET · ERODE</text>
+  </g>
+</svg>
